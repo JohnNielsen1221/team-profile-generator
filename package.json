@@ -1,0 +1,28 @@
+{
+  "name": "team-profile-generator",
+  "version": "1.0.0",
+  "description": "Command line HTML page generator",
+  "main": "Index.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "dependencies": {
+    "inquirer": "^7.3.0"
+  },
+  "devDependencies": {
+    "jest": "^26.1.0"
+  },
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JohnNielsen1221/team-profile-generator.git"
+  },
+  "author": "John Nielsen",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/JohnNielsen1221/team-profile-generator/issues"
+  },
+  "homepage": "https://github.com/JohnNielsen1221/team-profile-generator#readme"
+}
