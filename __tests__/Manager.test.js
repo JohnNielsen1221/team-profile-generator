@@ -7,7 +7,7 @@ test('Sets Office Number', () => {
     expect(employee.officeNumber).toBe(testValue);
 });
 
-test('getRole returns "Manager"', () => {
+test('getRole() returns "Manager"', () => {
     const testValue = 'Manager';
     const employee = new Manager('Foo', 1, 'test@test. com', 100);
     expect(employee.getRole()).toBe(testValue);
